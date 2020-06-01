@@ -12,7 +12,6 @@
    
     <?php foreach($data as $d) : ?>
         <tr>
-        
         <td><?= $d->marca; ?></td>
         <td><?= $d->descricao; ?></td>
         <td><a href="marcas_edit?id=<?= $d->id; ?>" class="btn"><img src="assets/svg/editar.svg" style="width:1em;height:auto"></a></td>
